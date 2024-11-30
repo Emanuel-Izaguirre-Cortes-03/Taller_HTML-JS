@@ -1,0 +1,33 @@
+* {
+    font-family: "Geist Mono", monospace;
+    
+}
+
+body {
+    background-color: #C5E1A5; /* Verde claro pistache */
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    background-color: lightgray;
+  }
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+
+.flex-item {
+    display: inline-block;
+    background-color: #8BC34A; /* Verde más oscuro para contraste */
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    flex: 1 1 30%;
+  }
